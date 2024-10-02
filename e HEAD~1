@@ -1,0 +1,41 @@
+[33mcommit 714bf9495ddc46af83a2c3cb389e9417d955d965[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: minsong0313 <minsong0313@naver.com>
+Date:   Mon Sep 30 11:56:56 2024 +0900
+
+    add: 평균 일일 대여 요금 구하기
+
+[33mcommit 1093b8481caf91044f32df464578b41074719246[m
+Author: minsong0313 <minsong0313@naver.com>
+Date:   Sun Sep 29 18:17:27 2024 +0900
+
+    add: 평균 구하기
+
+[33mcommit 725b8bbd300cbf86d00a16d51d43e26f71c1de80[m
+Author: minsong0313 <minsong0313@naver.com>
+Date:   Sun Sep 29 17:59:46 2024 +0900
+
+    add: x만큼 간격이 있는 n개의 숫자
+
+[33mcommit b44bd631e868c44f2c7654108ab3d3fae0cfb055[m
+Author: minsong0313 <minsong0313@naver.com>
+Date:   Sun Sep 29 17:36:30 2024 +0900
+
+    add: 나머지가 1이 되는 가장 작은 수 찾기
+
+[33mcommit 4901dfc66d77bcfdabec09394f301655a90dd21d[m
+Author: minsong0313 <minsong0313@naver.com>
+Date:   Sun Sep 29 17:26:08 2024 +0900
+
+    add: 문자열 정수로 바꾸기
+
+[33mcommit 644a0be981c7e7339a05a349c8cf0aa1131eef0c[m
+Author: minsong0313 <minsong0313@naver.com>
+Date:   Sun Sep 29 17:24:14 2024 +0900
+
+    add: 약수의 합
+
+[33mcommit 1930c5b406ed717d5fedc39fa571c4dc89ef154e[m
+Author: minsong0313 <minsong0313@naver.com>
+Date:   Sun Sep 29 17:23:13 2024 +0900
+
+    init
