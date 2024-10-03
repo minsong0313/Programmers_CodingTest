@@ -1,0 +1,9 @@
+SELECT A.REST_ID, A.REST_NAME, A.FOOD_TYPE, A.FAVORITES, A.ADDRESS, 
+        ROUND(AVG(B.REVIEW_SCORE),2) AS SCORE
+FROM REST_INFO A JOIN REST_REVIEW B ON A.REST_ID = B.REST_ID
+WHERE A.ADDRESS LIKE '서울%'
+GROUP BY REST_ID
+ORDER BY SCORE DESC, A.FAVORITES DESC;
+
+// LIKE 연산자 사용 : '서울'로 시작해야 되기 때문에 '서울%'로 사용
+// '%서울%' : 문자열 어디든 '서울'이 들어가 있으면 출력하기 때문에 적절치 않음 
