@@ -1,0 +1,15 @@
+SELECT NAME
+FROM ANIMAL_INS
+ORDER BY DATETIME LIMIT 1;
+-- Mysql
+-- LIMIT값을 줘서 출력
+
+
+SELECT NAME
+FROM (SELECT *
+      FROM ANIMAL_INS
+      ORDER BY DATETIME)
+WHERE ROWNUM <= 1;
+-- Oracle
+-- FROM절에 서브쿼리를 이용
+-- ROWNUM으로 출력
