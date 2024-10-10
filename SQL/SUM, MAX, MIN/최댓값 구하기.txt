@@ -1,0 +1,5 @@
+SELECT MAX(DATETIME) AS 시간
+FROM ANIMAL_INS
+
+-- Mysql, Oracle 동일 코드
+-- Mysql은 내림차순 정렬 후 LIMIT 사용도 가능
