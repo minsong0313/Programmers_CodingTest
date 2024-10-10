@@ -1,0 +1,5 @@
+SELECT MIN(DATETIME) AS 시간
+FROM ANIMAL_INS
+
+-- 코드 동일
+-- Mysql은 오름차순 정렬 후 LIMIT으로 출력 가능
